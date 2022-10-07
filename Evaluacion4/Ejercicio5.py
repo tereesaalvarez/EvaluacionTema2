@@ -26,12 +26,12 @@ class coche(vehiculo):
     def __str__(self):
         return "Color {}, {}ruedas ".format(self.color, self.ruedas)
 
-    def set_color(self, color):
-        self.color = color
-    def get_color(self):
-        return self.color
+    def set_velocidad(self, velocidad):
+        self.velocidad = velocidad
+    def get_velocidad(self):
+        return self.velocidad
 
-    def set_ruedas(self, ruedas):
-        self.ruedas = ruedas
-    def get_ruedas(self):
-        return self.ruedas
+    def set_cilindrada(self, cilindrada):
+        self.cilindrada = cilindrada
+    def get_cilindrada(self):
+        return self.cilindrada
