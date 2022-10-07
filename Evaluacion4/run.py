@@ -1,9 +1,9 @@
 import Ejercicio5
 
-mi_coche = Ejercicio5.coche()
-mi_bicicleta = Ejercicio5.bicicleta
-mi_camioneta = Ejercicio5.camioneta
-mi_moto = Ejercicio5.moto
+mi_coche = Ejercicio5.coche("rojo",4, 120,1500 )
+mi_bicicleta = Ejercicio5.bicicleta("roja", 2, "urbana")
+mi_camioneta = Ejercicio5.camioneta("blanco", 8, 1000)
+mi_moto = Ejercicio5.moto("gris", 2, 180, 600)
 mis_vehiculos = [mi_bicicleta, mi_camioneta, mi_moto, mi_coche]
 
 def catalogar(ListaVehiculos):
