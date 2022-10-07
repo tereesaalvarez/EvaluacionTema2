@@ -24,7 +24,7 @@ class coche(vehiculo):
         self.cilindrada = cilindrada
 
     def __str__(self):
-        return "Color {}, {}ruedas ".format(self.color, self.ruedas)
+        return super().__str__() + ", {} km/h, {} cc".format(self.velocidad, self.cilindrada)
 
     def set_velocidad(self, velocidad):
         self.velocidad = velocidad
