@@ -1,4 +1,4 @@
-from Evaluacion.Ejercicio1 import alumno
+from Ejercicio1 import alumno
 
 
 def nombres():
