@@ -1,3 +1,6 @@
+from this import d
+
+
 class alumno():
     def __init__(self,alumno,nota):
         self.alumno = alumno
@@ -12,3 +15,6 @@ class alumno():
             print("El alumno ha suspendido")
         else:
             print("Esa califiacación no es valida")
+    
+    def __str__(self):
+        return()
