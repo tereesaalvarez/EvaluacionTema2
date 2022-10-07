@@ -2,9 +2,9 @@ class alumno():
     def __init__(self,alumno,nota):
         self.alumno = alumno
         self.nota = nota
-        print("El alumno se ha creado con éxito")
+        print("El alumno ",alumno," se ha creado con éxito")
 
-    def calificacion():
+    def calificacion(alumno):
         nota= input("Introduce la nota del alumno: ")
         if 5 <= nota <=10:
             print("El alumno ha aprobado")
