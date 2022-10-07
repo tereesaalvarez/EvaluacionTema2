@@ -18,6 +18,7 @@ class vehiculo():
 
 class coche(vehiculo):
     def __init__(self, color, ruedas, velocidad, cilindrada):
+        #uso el super para traer lo anterior
         self.color = color
         self.ruedas = ruedas
         self.velocidad = velocidad
