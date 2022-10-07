@@ -35,3 +35,6 @@ def inicio():
         print(catalogar_2(mis_vehiculos,6))
     elif opcion ==5:
         print("Saliendo")
+    else:
+        print("Opcion incorrecta")
+        inicio()
