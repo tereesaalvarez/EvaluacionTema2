@@ -13,4 +13,9 @@ class alumno():
         else:
             print("Esa califiacación no es valida")
 
-print(alumno.calificacion())
+alumno1 = alumno('Alfredo',7)
+alumno2 = alumno('Lucia', 3)
+alumno3 = alumno('Jose', 5)
+print(alumno1)
+print(alumno2)
+print(alumno3)
